@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar text-center>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Detalhe do contato</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="https://png.icons8.com/color/96/000000/user-male-circle.png">
+      </ion-thumbnail>
+      <ion-label>{{contato.sobrenome}}, <b>{{contato.nome}}</b></ion-label>
+    </ion-item>
+    <ion-item>
+      <p text-justify>{{contato.curriculo}}</p>
+    </ion-item>
+</ion-content>

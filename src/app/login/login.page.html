@@ -1,0 +1,15 @@
+<ion-content padding text-center>
+  <ion-title>Login</ion-title>
+
+  <ion-list>
+    <ion-item>
+      <ion-input type="text" [(ngModel)]="usuario" placeholder="Usuário"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="password" [(ngModel)]="senha" placeholder="Senha"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <ion-button size="large" (click)="entrar()">Entrar</ion-button>
+</ion-content>
